@@ -1,7 +1,6 @@
 {
   "name": "orm-e-commerce",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "dotenv": "^10.0.0",
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/acevezl/orm-e-commerce/issues"
   },
-  "homepage": "https://github.com/acevezl/orm-e-commerce#readme"
+  "homepage": "https://github.com/acevezl/orm-e-commerce#readme",
+  "description": ""
 }
