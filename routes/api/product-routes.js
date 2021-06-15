@@ -9,17 +9,19 @@ router.get('/', (req, res) => {
   // be sure to include its associated Category and Tag data
   Product.findAll({
     include: [Category,Tag]
-  }).then(results => {
-    res.json(results);
-  }).catch(error => {
-    res.status(500).json(err);
   })
+  .then(results => res.json(results))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 // get one product
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
+  
 });
 
 // create new product
